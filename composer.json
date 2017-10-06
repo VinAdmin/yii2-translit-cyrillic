@@ -1,6 +1,6 @@
 {
-    "name": "dkhlystov/yii2-translit",
-    "description": "Translit helper for Yii 2 framework",
+    "name": "igorvolnyi/yii2-translit",
+    "description": "Translit helper for Yii 2 framework. Forked from dkhlystov/yii2-translit.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","translit"],
     "license": "BSD-3-Clause",
@@ -8,6 +8,10 @@
         {
             "name": "Dmitry Khlystov",
             "email": "dkhlystov@gmail.com"
+        },
+        {
+            "name": "Igor Volnyi",
+            "email": "igorvolnyi@gmail.com"
         }
     ],
     "require": {
