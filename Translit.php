@@ -1,6 +1,6 @@
 <?php
 
-namespace helpers;
+namespace igorvolnyi\helpers;
 
 /**
  * Translit helper class.
