@@ -61,9 +61,12 @@ class Translit
 	 * @param string $text Text for transliteration.
 	 * @return string
 	 */
-	public static function t($text)
+	public static function t($text, $lowercase = false)
 	{
 		$text = trim($text);
+
+        if($lowercase)
+            $text = mb_strtolower($text);
 
 		//cyrilic and symbols translit
 		$replace = self::$_replace;
