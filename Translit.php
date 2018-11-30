@@ -82,7 +82,7 @@ class Translit
 
 		//other translit
 		//make sure that you set locale for using iconv
-		$s = iconv('UTF-8', 'ASCII//TRANSLIT', $s);
+		$s = iconv('UTF-8', 'UTF-8//TRANSLIT', $s);
 
 		//remove symbols
 		$s = preg_replace('/[^\-0-9a-z]+/i', '', $s);
